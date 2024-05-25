@@ -23,3 +23,47 @@
 /public/assets/
 /assets/vendor/
 ###< symfony/asset-mapper ###
+# Directorios de Symfony
+/var/
+/vendor/
+/public/bundles/
+
+# Configuración específica del entorno
+/.env
+/.env.local
+/.env.*.local
+/phpunit.xml
+/phpunit.xml.dist
+
+# Cache y logs
+/var/cache/
+/var/log/
+/var/sessions/
+
+# Archivos de configuración específicos del entorno
+/config/secrets/*/decrypt/
+/config/jwt/private.pem
+/config/jwt/public.pem
+
+# Archivos de Symfony Flex
+/.pnp
+/.pnp.js
+/.php_cs.cache
+
+# Otros archivos generados automáticamente
+/node_modules/
+/coverage/
+/build/
+/public/build/
+public/uploads
+
+# Ignorar archivos de configuración de IDE
+/.idea/
+/.vscode/
+/nbproject/
+/*.swp
+*~
+.DS_Store
+
+# Ignorar archivos y directorios de Composer
+/composer.lock
